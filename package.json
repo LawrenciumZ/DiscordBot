@@ -1,0 +1,27 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "I want this bot to send me new letters each day about specific events, specifically financial news.",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LawrenciumZ/DiscordBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LawrenciumZ/DiscordBot/issues"
+  },
+  "homepage": "https://github.com/LawrenciumZ/DiscordBot#readme",
+  "dependencies": {
+    "discord.js": "^14.22.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.37.0",
+    "eslint": "^9.37.0"
+  }
+}
