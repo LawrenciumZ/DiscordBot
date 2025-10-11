@@ -32,10 +32,9 @@ module.exports = {
 					flags: MessageFlags.Ephemeral,
 				});
 			}
-			timestamps.set(interaction.user.id, now);
-			setTimeout(() => timestamps.delete(interaction.user.id), cooldownAmount);
 		}
-
+		timestamps.set(interaction.user.id, now);
+		setTimeout(() => timestamps.delete(interaction.user.id), cooldownAmount);
 		try {
 			await command.execute(interaction);
 		} catch (error) {
